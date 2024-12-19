@@ -1,0 +1,8 @@
+// 키 바인딩을 이 파일에 넣어서 기본값 재정의
+[
+    {
+        "key": "ctrl+r",
+        "command": "workbench.action.tasks.runTask",  // 수정된 명령어
+        "args": "build and run"  // 실행할 task 이름 지정
+    }
+]
